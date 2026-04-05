@@ -1,0 +1,43 @@
+{
+  "schedules": [
+    {
+      "homeId": "home-001",
+      "homeName": "My Home",
+      "roomId": "room-001",
+      "roomName": "Living Room",
+      "deviceId": "dev-001",
+      "deviceName": "Main Light",
+      "startHour": 18,
+      "startMinute": 0,
+      "endHour": 23,
+      "endMinute": 0,
+      "days": [true, true, true, true, true, true, true]
+    },
+    {
+      "homeId": "home-001",
+      "homeName": "My Home",
+      "roomId": "room-002",
+      "roomName": "Bedroom",
+      "deviceId": "dev-004",
+      "deviceName": "Ceiling Light",
+      "startHour": 7,
+      "startMinute": 0,
+      "endHour": 8,
+      "endMinute": 30,
+      "days": [false, true, true, true, true, true, false]
+    },
+    {
+      "homeId": "home-002",
+      "homeName": "My Garage",
+      "roomId": "room-003",
+      "roomName": "Main Area",
+      "deviceId": "dev-006",
+      "deviceName": "Light",
+      "startHour": 6,
+      "startMinute": 0,
+      "endHour": 9,
+      "endMinute": 0,
+      "days": [true, false, false, false, false, false, true]
+    }
+  ]
+}

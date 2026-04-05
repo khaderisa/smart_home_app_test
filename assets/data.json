@@ -1,0 +1,61 @@
+{
+  "homes": [
+    {
+      "id": "home-001",
+      "name": "My Home saed",
+      "icon": "🏠",
+      "rooms": [
+        {
+          "id": "room-001",
+          "name": "Living Room",
+          "icon": "🛋️",
+          "devices": [
+            { "id": "dev-001", "name": "Main Light", "type": 0, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } },
+            { "id": "dev-002", "name": "TV Plug", "type": 1, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } },
+            { "id": "dev-003", "name": "AC", "type": 3, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } }
+          ]
+        },
+        {
+          "id": "room-002",
+          "name": "Bedroom",
+          "icon": "🛏️",
+          "devices": [
+            { "id": "dev-004", "name": "Ceiling Light", "type": 0, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } },
+            { "id": "dev-005", "name": "Fan", "type": 2, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-002",
+      "name": "My Garage",
+      "icon": "🏚️",
+      "rooms": [
+        {
+          "id": "room-003",
+          "name": "Main Area",
+          "icon": "🔧",
+          "devices": [
+            { "id": "dev-006", "name": "Light", "type": 0, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } },
+            { "id": "dev-007", "name": "Door Plug", "type": 1, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "home-003",
+      "name": "My Farm",
+      "icon": "🌾",
+      "rooms": [
+        {
+          "id": "room-004",
+          "name": "Storage",
+          "icon": "📦",
+          "devices": [
+            { "id": "dev-008", "name": "Light", "type": 0, "isOn": false, "schedule": { "startHour": null, "startMinute": null, "endHour": null, "endMinute": null, "days": [false,false,false,false,false,false,false] } }
+          ]
+        }
+      ]
+    }
+  ]
+}

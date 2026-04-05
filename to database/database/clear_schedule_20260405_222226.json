@@ -1,0 +1,8 @@
+{
+  "type": "clear_schedule",
+  "timestamp": "2026-04-05T22:22:26.111",
+  "homeId": "home-001",
+  "roomId": "room-001",
+  "deviceId": "dev-001",
+  "deviceName": "Main Light"
+}
